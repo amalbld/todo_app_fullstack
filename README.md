@@ -9,7 +9,7 @@ Application web fullstack de gestion de tâches — API REST Spring Boot + inter
 | Côté | Technologies |
 |------|-------------|
 | **Backend** | Java 17 · Spring Boot · Spring Data JPA · REST API |
-| **Frontend** | Angular · TypeScript · HTML/CSS |
+| **Frontend** | Angular |
 | **Base de données** | MySQL / H2 (dev) |
 | **Outils** | Maven · npm · Git |
 
@@ -74,11 +74,11 @@ L'interface démarre sur **http://localhost:4200**
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
-| `GET` | `/api/todos` | Récupérer toutes les tâches |
-| `GET` | `/api/todos/{id}` | Récupérer une tâche |
-| `POST` | `/api/todos` | Créer une tâche |
-| `PUT` | `/api/todos/{id}` | Modifier une tâche |
-| `DELETE` | `/api/todos/{id}` | Supprimer une tâche |
+| `GET` | `/api/tasks` | Récupérer toutes les tâches |
+| `GET` | `/api/tasks/{id}` | Récupérer une tâche |
+| `POST` | `/api/tasks` | Créer une tâche |
+| `PUT` | `/api/tasks/{id}` | Modifier une tâche |
+| `DELETE` | `/api/tasks/{id}` | Supprimer une tâche |
 
 ---
 
