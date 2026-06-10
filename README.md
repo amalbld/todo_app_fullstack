@@ -34,8 +34,7 @@ todo_app_fullstack/
 │   │   └── main/java/...
 │   └── pom.xml
 ├── frontend/         # Interface Angular
-│   ├── src/
-│   └── package.json
+│   └── README.md
 └── README.md
 ```
 
