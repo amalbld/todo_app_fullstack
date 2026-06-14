@@ -1,6 +1,6 @@
 # Todo App Fullstack 📝
 
-Application web fullstack de gestion de tâches — API REST Spring Boot + interface Angular.
+Application web fullstack de gestion de tâches — API REST Spring Boot + interface React.
 
 ---
 
@@ -9,7 +9,7 @@ Application web fullstack de gestion de tâches — API REST Spring Boot + inter
 | Côté | Technologies |
 |------|-------------|
 | **Backend** | Java 17 · Spring Boot · Spring Data JPA · REST API |
-| **Frontend** | Angular |
+| **Frontend** | React · JavaScript · HTML/CSS |
 | **Base de données** | MySQL / H2 (dev) |
 | **Outils** | Maven · npm · Git |
 
@@ -33,7 +33,7 @@ todo_app_fullstack/
 │   ├── src/
 │   │   └── main/java/...
 │   └── pom.xml
-├── frontend/         # Interface Angular
+├── frontend/         # Interface React
 │   └── README.md
 └── README.md
 ```
@@ -57,15 +57,15 @@ cd backend
 
 L'API démarre sur **http://localhost:8080**
 
-### 2. Frontend (Angular)
+### 2. Frontend (React)
 
 ```bash
 cd frontend
 npm install
-ng serve
+npm start
 ```
 
-L'interface démarre sur **http://localhost:4200**
+L'interface démarre sur **http://localhost:3000**
 
 ---
 
